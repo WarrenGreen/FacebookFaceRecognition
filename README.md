@@ -48,7 +48,7 @@ Once the faces have been detected in each image, the top-left (x,y) pair for eac
 
 __Face Recognition__
 
-Facial recognition relies on Local Binary Pattern Histograms(LBPH) implemented in the OpenCV library. LBPH, obvious from the name, first creates Local Binary Patterns by sampling image subregions, creates a histogram of these values and then compares this histogram to an incoming image through a classifer such as k-nearest neighbor(KNN). The sampling to create the LBH is done by comparing each pixel, C, to P pixels in the region to it's R neighbors defined as a (P, R) neighborhood. 
+Facial recognition relies on Local Binary Pattern Histograms(LBPH) implemented in the OpenCV library. LBPH first creates Local Binary Patterns by sampling image subregions, creates a histogram of these values and then compares this histogram to an incoming image through a classifer such as k-nearest neighbor(KNN). The sampling to create the LBH is done by comparing each pixel, C, to P pixels in the region to it's R neighbors defined as a (P, R) neighborhood. 
 
 ![alt text](https://github.com/WarrenGreen/FacebookFaceRecognition/blob/master/readmeImages/LBP1.png?raw=true "(P,R) Neighborhood")
 
