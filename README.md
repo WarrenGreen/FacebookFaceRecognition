@@ -76,5 +76,12 @@ To run the demo in main.cpp, compile and run using cmake.
 
 ###<a name="conclusion"></a>Conclusion
 
+Rather than require a training period before you're able to use your app, authenticating with Facebook will offer a more seamless setup with a significantly larger training set than you're likely to achieve. The act of stealing models is a [growing idea](http://arxiv.org/pdf/1609.02943v1.pdf) which prompts us to consider not only how to use them but how to protect our own.
+
 ###References
-* http://docs.opencv.org/2.4/modules/contrib/doc/facerec/facerec_tutorial.html#local-binary-patterns-histograms
+1. <http://docs.opencv.org/2.4/modules/contrib/doc/facerec/facerec_tutorial.html#local-binary-patterns-histograms>
+2. <http://docs.opencv.org/2.4/doc/tutorials/objdetect/cascade_classifier/cascade_classifier.html>
+3. <http://www.ee.oulu.fi/mvg/files/pdf/pdf_494.pdf>
+4. <http://liris.cnrs.fr/Documents/Liris-5004.pdf>
+5. <https://en.wikipedia.org/wiki/Local_binary_patterns>
+6. <http://docs.opencv.org/2.4/modules/contrib/doc/facerec/facerec_api.html>
