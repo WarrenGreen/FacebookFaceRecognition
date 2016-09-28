@@ -9,7 +9,7 @@ __Contents__
 
 ###<a name="overview"></a>Overview
 
-Facial recognition can add a more seamless interaction with your app. You can imagine incorporating recognition into your phone's lockscreen so that the iPhone 7 doesn't just Raise to Wake but actually unlocks as well. Perhaps you have a photosharing service that you'd like to auto-tag users in or a camera app that automatically adds facial filters to different people based on their preferences to better fit their identity. There are currently apps that make use of this technology but they require the user to capture several photos of themselves as a training pool before they can continue. Instead this project shows a proof-of-concept in which you can offer facial recognition services simply by authenticating your app with Facebook.
+Facial recognition can add a more seamless interaction with your app. You can imagine incorporating recognition into your phone's lockscreen so that the iPhone 7 doesn't just Raise to Wake but actually unlocks as well. Perhaps you have a photosharing service that you'd like to auto-tag users in or a camera app that automatically adds facial filters to different people based on their preferences to better fit their identity. There are currently apps that make use of this technology but require the user to capture several photos of themselves as a training pool before they can continue. Instead this project shows a proof-of-concept in which you can offer facial recognition services simply by authenticating your app with Facebook.
 
 ###<a name="howitworks"></a>How It Works
 
@@ -48,7 +48,7 @@ Once the faces have been detected in each image, the top-left (x,y) pair for eac
 
 __Face Recognition__
 
-Facial recognition relies on Local Binary Pattern Histograms(LBPH) implemented in the OpenCV library. LBPH first creates Local Binary Patterns by sampling image subregions, creates a histogram of these values and then compares this histogram to an incoming image through a classifer such as k-nearest neighbor(KNN). The sampling to create the LBH is done by comparing each pixel, C, to P pixels in the region to it's R neighbors defined as a (P, R) neighborhood. 
+Facial recognition relies on Local Binary Pattern Histograms(LBPH) implemented in the OpenCV library. LBPH first creates Local Binary Patterns by sampling image subregions, creates a histogram of these values and then compares this histogram to an incoming image through a classifer such as k-nearest neighbor(KNN). The sampling to create the LBH is done by comparing each pixel, C, to P pixels of its R neighbors defined as a (P, R) neighborhood. 
 
 ![alt text](https://github.com/WarrenGreen/FacebookFaceRecognition/blob/master/readmeImages/LBP1.png?raw=true "(P,R) Neighborhood")
 
