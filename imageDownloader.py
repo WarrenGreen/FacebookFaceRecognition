@@ -5,7 +5,7 @@ GRAPH_API_URL="https://graph.facebook.com/v2.7/"
 
 if len(sys.argv) < 3 or sys.argv[1] == "help":
 	print "usage: imageDownloader.py <access token file> <output file>\n"
-	print "outputs to index.csv"
+	print "outputs to index.csv\n"
 	sys.exit(0)
 
 accessTokenFile = open(sys.argv[1], "r")

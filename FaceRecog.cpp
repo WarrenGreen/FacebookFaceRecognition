@@ -22,6 +22,9 @@ void FaceRecog::train() {
     Mat img = imread(imgPath, CV_8UC1);
     if(img.empty()) { continue;}
 
+    resize(img, img, Size(100,100));
+    equalizeHist(img, img);
+
     images.push_back(img);
     labels.push_back(1);
   }
@@ -32,7 +35,8 @@ void FaceRecog::train() {
 bool FaceRecog::recognize(Mat img) {
   int pl;
   double confidence;
-  _model->set("threshold", 30.0);
+  _model->set("threshold", 90.0);
   _model->predict(img, pl, confidence);
+  cout << "output: " << pl <<", "<<confidence << endl;
   return pl == 1;
 }
