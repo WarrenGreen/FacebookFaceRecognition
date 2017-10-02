@@ -11,7 +11,7 @@ __Contents__
 
 Facial recognition can add a more seamless interaction with your app. You can imagine incorporating recognition into your phone's lockscreen so that the iPhone 7 doesn't just Raise to Wake but actually unlocks as well. Perhaps you have a photosharing service that you'd like to auto-tag users in or a camera app that automatically adds facial filters to different people based on their preferences to better fit their identity. There are currently apps that make use of this technology but require the user to capture several photos of themselves as a training pool before they can continue. Instead this project shows a proof-of-concept in which you can offer facial recognition services simply by authenticating your app with Facebook.
 
-###<a name="howitworks"></a>How It Works
+### <a name="howitworks"></a>How It Works
 
 ![alt text](https://github.com/WarrenGreen/FacebookFaceRecognition/blob/master/readmeImages/FaceRecog_flow.png?raw=true "Flow")
 
@@ -60,7 +60,7 @@ The use of boosters can improve efficiency and accuracy of LBPH classifiers by d
 
 ![alt text](https://github.com/WarrenGreen/FacebookFaceRecognition/blob/master/readmeImages/LBP3.png?raw=true "Sub Regions")
 
-###<a name="running"></a>How To Run
+### <a name="running"></a>How To Run
 
 Before downloading the information via Facebook's Graph API, you will need an authentication token for the user which will be saved to a file.
 
@@ -74,11 +74,11 @@ Downloading images detailed in index.csv:
 
 To run the demo in main.cpp, compile and run using cmake.
 
-###<a name="conclusion"></a>Conclusion
+### <a name="conclusion"></a>Conclusion
 
 Rather than require a training period before you're able to use your app, authenticating with Facebook will offer a more seamless setup with a significantly larger training set than you're likely to achieve. The act of stealing models is a [growing idea](http://arxiv.org/pdf/1609.02943v1.pdf) which prompts us to consider not only how to use them but how to protect our own.
 
-###References
+### References
 1. <http://docs.opencv.org/2.4/modules/contrib/doc/facerec/facerec_tutorial.html#local-binary-patterns-histograms>
 2. <http://docs.opencv.org/2.4/doc/tutorials/objdetect/cascade_classifier/cascade_classifier.html>
 3. <http://www.ee.oulu.fi/mvg/files/pdf/pdf_494.pdf>
