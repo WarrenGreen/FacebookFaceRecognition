@@ -7,7 +7,7 @@ __Contents__
 * [How To Run](#running)
 * [Conclusion](#conclusion)
 
-###<a name="overview"></a>Overview
+### <a name="overview"></a>Overview
 
 Facial recognition can add a more seamless interaction with your app. You can imagine incorporating recognition into your phone's lockscreen so that the iPhone 7 doesn't just Raise to Wake but actually unlocks as well. Perhaps you have a photosharing service that you'd like to auto-tag users in or a camera app that automatically adds facial filters to different people based on their preferences to better fit their identity. There are currently apps that make use of this technology but require the user to capture several photos of themselves as a training pool before they can continue. Instead this project shows a proof-of-concept in which you can offer facial recognition services simply by authenticating your app with Facebook.
 
