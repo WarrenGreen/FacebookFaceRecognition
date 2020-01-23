@@ -1,4 +1,4 @@
-# Facial Recognition Model From Facebook Authentication
+# Classical CV Facial Recognition Model From Facebook Authentication
 
 __Contents__
 
